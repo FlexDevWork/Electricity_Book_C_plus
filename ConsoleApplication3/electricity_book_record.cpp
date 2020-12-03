@@ -14,7 +14,7 @@ int electricity_book_record::getValue()
 {
     if (this->_value < 0)
     {
-        throw "The value cannot be negative test";
+        throw "The value cannot be negative test ";
     }
     return this->_value;
 }
