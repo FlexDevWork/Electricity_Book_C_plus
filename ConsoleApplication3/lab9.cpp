@@ -22,7 +22,7 @@ int main()
 
         vector<electricity_book_record> electricityBookRecords = vector<electricity_book_record>();
         electricity_book_record record1 = electricity_book_record();
-        tm date1 = CreateTmStruct(1, 10, 2020);
+        tm date1 = CreateTmStruct(24, 09, 2020);
         record1.setDate(date1);
         record1.setValue(3);
         electricityBookRecords.push_back(record1);
